@@ -6,31 +6,35 @@
 %define	pdir	Locale
 %define	pnam	Maketext-Fuzzy
 Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
-#Summary(pl):	
+Summary(pl):	Locale::Maketext::Fuzzy - Maketext z ju¿ przybli¿onych ³añcuchów
 Name:		perl-Locale-Maketext-Fuzzy
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Locale-Maketext
 BuildRequires:	perl-Test-Simple
 %endif
+BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module is a subclass of C<Locale::Maketext>, with additional support
+This module is a subclass of Locale::Maketext, with additional support
 for localizing messages that already contains interpolated variables.
-This is most useful when the messages are returned by external modules --
-for example, to match C<dir: command not found> against C<[_1]: command
-not found>.
+This is most useful when the messages are returned by external modules
+- for example, to match "dir: command not found" against "[_1]: command
+not found".
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ jest podklas± Locale::Maketext, z dodatkow± obs³ug±
+lokalizowanych komunikatów, które ju¿ zawieraj± przybli¿one warto¶ci.
+Jest to najbardziej przydatne kiedy komunikaty s± zwracane przez
+zewnêtrzne modu³y - na przyk³ad, aby dopasowaæ "dir: command not
+found" do "[_1]: command not found".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
