@@ -10,7 +10,8 @@ Summary(pl):	Locale::Maketext::Fuzzy - Maketext z ju¿ przybli¿onych ³añcuchów
 Name:		perl-Locale-Maketext-Fuzzy
 Version:	0.02
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0425610d448900a774ed253eb678c559
