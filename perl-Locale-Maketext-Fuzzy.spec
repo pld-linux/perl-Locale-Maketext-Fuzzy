@@ -8,7 +8,7 @@
 Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
 #Summary(pl):	
 Name:		perl-Locale-Maketext-Fuzzy
-Version:	0.01
+Version:	0.02
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
