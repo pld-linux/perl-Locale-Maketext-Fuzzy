@@ -9,7 +9,7 @@ Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
 Summary(pl):	Locale::Maketext::Fuzzy - Maketext z ju¿ przybli¿onych ³añcuchów
 Name:		perl-Locale-Maketext-Fuzzy
 Version:	0.02
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
