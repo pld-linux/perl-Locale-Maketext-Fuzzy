@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Locale
-%define	pnam	Maketext-Fuzzy
+%define		pdir	Locale
+%define		pnam	Maketext-Fuzzy
 Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
 Summary(pl):	Locale::Maketext::Fuzzy - Maketext z ju¿ przybli¿onych ³añcuchów
 Name:		perl-Locale-Maketext-Fuzzy
