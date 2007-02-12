@@ -6,7 +6,7 @@
 %define		pdir	Locale
 %define		pnam	Maketext-Fuzzy
 Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
-Summary(pl):	Locale::Maketext::Fuzzy - Maketext z ju¿ przybli¿onych ³añcuchów
+Summary(pl.UTF-8):   Locale::Maketext::Fuzzy - Maketext z juÅ¼ przybliÅ¼onych Å‚aÅ„cuchÃ³w
 Name:		perl-Locale-Maketext-Fuzzy
 Version:	0.02
 Release:	4
@@ -31,11 +31,11 @@ This is most useful when the messages are returned by external modules
 - for example, to match "dir: command not found" against "[_1]: command
 not found".
 
-%description -l pl
-Ten modu³ jest podklas± Locale::Maketext, z dodatkow± obs³ug±
-lokalizowanych komunikatów, które ju¿ zawieraj± przybli¿one warto¶ci.
-Jest to najbardziej przydatne kiedy komunikaty s± zwracane przez
-zewnêtrzne modu³y - na przyk³ad, aby dopasowaæ "dir: command not
+%description -l pl.UTF-8
+Ten moduÅ‚ jest podklasÄ… Locale::Maketext, z dodatkowÄ… obsÅ‚ugÄ…
+lokalizowanych komunikatÃ³w, ktÃ³re juÅ¼ zawierajÄ… przybliÅ¼one wartoÅ›ci.
+Jest to najbardziej przydatne kiedy komunikaty sÄ… zwracane przez
+zewnÄ™trzne moduÅ‚y - na przykÅ‚ad, aby dopasowaÄ‡ "dir: command not
 found" do "[_1]: command not found".
 
 %prep
