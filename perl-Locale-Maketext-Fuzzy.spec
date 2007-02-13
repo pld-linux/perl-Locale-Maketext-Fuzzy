@@ -6,7 +6,7 @@
 %define		pdir	Locale
 %define		pnam	Maketext-Fuzzy
 Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
-Summary(pl.UTF-8):   Locale::Maketext::Fuzzy - Maketext z już przybliżonych łańcuchów
+Summary(pl.UTF-8):	Locale::Maketext::Fuzzy - Maketext z już przybliżonych łańcuchów
 Name:		perl-Locale-Maketext-Fuzzy
 Version:	0.02
 Release:	4
