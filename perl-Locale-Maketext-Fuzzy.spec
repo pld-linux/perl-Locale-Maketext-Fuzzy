@@ -8,13 +8,13 @@
 Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
 Summary(pl.UTF-8):	Locale::Maketext::Fuzzy - Maketext z już przybliżonych łańcuchów
 Name:		perl-Locale-Maketext-Fuzzy
-Version:	0.02
-Release:	4
+Version:	0.10
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0425610d448900a774ed253eb678c559
+# Source0-md5:	ff5621abe3b6a632bdf91932b4b69513
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Locale-Maketext
