@@ -8,7 +8,7 @@ Summary:	Locale::Maketext::Fuzzy - Maketext from already interpolated strings
 Summary(pl.UTF-8):	Locale::Maketext::Fuzzy - Maketext z już przybliżonych łańcuchów
 Name:		perl-Locale-Maketext-Fuzzy
 Version:	0.11
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -42,7 +42,8 @@ found" do "[_1]: command not found".
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
+# bundled inc::Module::Package needs '.' in @INC (dropped since perl 5.26)
+%{__perl} -I. Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
 
